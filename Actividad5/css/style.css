@@ -1,0 +1,21 @@
+h2{
+    background-color: rgb(245, 198, 116);
+}
+h1{
+    color: rgb(96, 165, 251);
+    font-weight: 1000;
+    font-style: italic;
+}
+.receta{
+    background-color: antiquewhite;
+}
+p strong{
+    color: rgb(87, 87, 179);
+}
+li{
+    list-style: none;
+}
+p span{
+    color: rgba(2, 0, 133, 0.449);
+
+}
