@@ -5,7 +5,10 @@
     border-bottom: 10px solid rgb(192, 187, 187);
     border-left: 5px solid rgb(192, 187, 187);
     border-right:5px solid rgb(192, 187, 187);
-    justify-content: center;
+    width: 900px;
+    border-radius: 3%;
+    background-color: aliceblue;
+    
 
 }
 hr{
@@ -14,6 +17,9 @@ hr{
 #main{
     border: 1px solid gray;
     padding-left: 1em;
+    background-image: linear-gradient(180deg, rgb(223, 223, 223), white, rgb(223, 223, 223));
+    
+    
 }
 #container{
     display: flex;
@@ -23,8 +29,17 @@ hr{
     margin-right: 2em;
 }
 body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+
     overflow-x: hidden;
-    width: 900px;
+    background-color: rgb(216, 216, 216);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h3{
@@ -34,6 +49,7 @@ h3{
 h1{
     text-align: center;
     color: rgb(190, 118, 118);
+    
 }
 span{
     color: green;
@@ -47,12 +63,26 @@ li{
     margin: 0.2em;
     padding: 0.3em 1em;
     text-align: center;
-    background-color: rgb(148, 246, 148);
+    background-image: linear-gradient(180deg, white, rgb(148, 246, 148));
 }
 li:hover{
-    background-color: rgb(223, 169, 169);
+    background-image: linear-gradient(180deg, white, rgb(223, 169, 169));
+
 }
 a{
     text-decoration: none;
     color: black;
+}
+#footer p{
+    color: rgb(218, 218, 218);
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
+    margin-left: 10vw;
+
+}
+.underline{
+    text-decoration:underline ;
+    color: rgb(218, 218, 218);
+
 }
