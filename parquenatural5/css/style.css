@@ -1,3 +1,4 @@
+
 #general{
     padding: 1em;
     border-top: 7px solid rgb(192, 187, 187);
@@ -6,6 +7,7 @@
     border-right:5px solid rgb(192, 187, 187);
     width: 900px;
     border-radius: 3%;
+    background-color: aliceblue;
     
 
 }
@@ -34,9 +36,10 @@ body{
     align-items: center;
     justify-content: center;
     align-content: center;
+    margin: 0;
 
     overflow-x: hidden;
-    
+    background-color: rgb(216, 216, 216);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h3{
@@ -75,7 +78,7 @@ a{
     text-align: center;
     font-size: smaller;
     font-style: italic;
-    margin-left: 15vw;
+    margin-left: 10vw;
 
 }
 .underline{
