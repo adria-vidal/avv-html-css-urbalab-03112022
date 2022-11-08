@@ -21,6 +21,15 @@ hr{
     
     
 }
+#header{
+    display: block;
+    justify-content: center;
+}
+#header img{
+    width: 100%;
+    justify-content: center;
+}
+
 #container{
     display: flex;
     
@@ -36,7 +45,7 @@ body{
     align-items: center;
     justify-content: center;
     align-content: center;
-    margin: 0;
+    
 
     overflow-x: hidden;
     background-color: rgb(216, 216, 216);
@@ -46,6 +55,7 @@ h3{
     color: rgb(89, 224, 89);
     padding: 0 1em ;
 }
+
 h1{
     text-align: center;
     color: rgb(190, 118, 118);
@@ -79,6 +89,10 @@ a{
     font-size: smaller;
     font-style: italic;
     margin-left: 10vw;
+
+}
+#footer a{
+    color: rgb(218, 218, 218);
 
 }
 .underline{
